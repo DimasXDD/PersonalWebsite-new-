@@ -9,17 +9,18 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/tailwind.css" rel="stylesheet">
     <link href="css/cube.css" rel="stylesheet">
+    <link href="css/colors.css" rel="stylesheet">
 </head>
 <body>
     <main>
         <section class="home">
-            <div class="flex flex-col justify-center flex-wrap content-center xl:-mt-30 -mt-28 py-96 bg-cover bg-center" style="background-image: url('https://www.meme-arsenal.com/memes/578eab17e63cc1ea0ca49e0547693326.jpg');">
+            <div class="flex flex-col justify-center flex-wrap content-center xl:-mt-30 -mt-20 py-96 bg-cover bg-center" style="background-image: url('https://i.gifer.com/XzZg.gif');">
                 <div class="grid grid-cols-1 place-items-center">
                     <div class="z-40 divide-y-4 py-5 divide-white divide-solid -mb-96">
-                        <h1 class="text-5xl font-extrabold text-white xl:text-8xl">Дима Сиднев</h1>
-                        <p class="mt-4 text-base text-center font-medium text-white xl:text-xl">Лучший человек по его же мнению</p>
+                        <h1 class="text-5xl font-extrabold bright-red xl:text-8xl">Дима Сиднев</h1>
+                        <p class="mt-4 text-center text-center font-medium xl:text-xl bright-red">Лучший человек по его же мнению</p>
                     </div>
-                    <div class="cube">
+                    <div class="cube animate-pulse">
                         <div class="cube-top"></div>
                         <div>
                             <span style="--i:0;"></span>
@@ -31,46 +32,53 @@
                 </div>
             </div>
         </section>
-        <section class="about bg-blue-300 pt-10">
-            <h2 class="my-5 font-bold text-2xl text-center text-3xl xl:text-5xl tracking-widest uppercase text-white">Обо мне</h2>
-            <div class="mt-8 flex justify-center justify-items-center">
-                <p class="p-10 my-3 font-medium xl:text-lg text-center text-white">18-ти летний оптимистичный нигилист, экстраверт с узким кругом общения, протестант, фанат всего постмодернистического, скромный настолько что решил написать об этом, а, я студент, точно.</p>
+        <section class="about my-bg pt-10">
+            <h2 class="my-5 font-bold text-2xl text-center text-6xl xl:text-8xl tracking-widest uppercase bright-red">Обо мне</h2>
+            <div class="mt-8 grid grid-cols-1 justify-items-center">
+                <p class="p-10 mt-3 font-medium xl:text-lg text-center text-white">18-ти летний оптимистичный нигилист, экстраверт с узким кругом общения, протестант, фанат всего постмодернистического, скромный настолько что решил написать об этом.<br>А, ещё я студент, точно.</p>
             </div>
             <div class="flex justify-center">
                 <img class="mt-5" src="src/proj1.jpg">
             </div>
         </section>
-        <section class="hobby bg-green-300 pt-10">
-            <h2 class="mb-5 font-bold text-2xl text-center text-3xl xl:text-5xl tracking-widest uppercase text-center text-white">Мои Хобби</h2>
-            <div class="mt-8 py-5 grid grid-cols-1 xl:grid-cols-2 justify-items-strech place-content-center gap-4 xl:gap-x-0">
-                <div class="bg-blue-500 bg-center text-sm lg:text-xl p-12 text-center flex justify-center mx-4">
-                    <span>🤔</span>
-                    <div class="text-white tracking-wider font-bold"> Философия</div>
-                </div>
-                <div class="bg-red-500 bg-center text-sm lg:text-xl p-12 text-center flex justify-center mx-4">
-                    <span>💻</span>
-                    <div class="text-white tracking-wider font-bold"> Программирование</div>
-                </div>
-                <div class="bg-purple-500 bg-center text-sm lg:text-xl p-12 text-center flex justify-center mx-4">
-                    <span>🥼</span>
-                    <div class="text-white tracking-wider font-bold"> Психология</div>
-                </div>
-                <div class="bg-yellow-500 bg-center text-sm lg:text-xl p-12 text-center flex justify-center mx-4">
-                    <span>📕</span>
-                    <div class="text-white tracking-wider font-bold"> История</div>
-                </div>
-                <div class="bg-indigo-500 bg-center text-sm lg:text-xl p-12 text-center flex justify-center mx-4">
-                    <span>🎩</span>
-                    <div class="text-white tracking-wider font-bold"> Английский</div>
-                </div>
-                <div class="bg-pink-500 bg-center text-sm lg:text-xl p-12 text-center flex justify-center mx-4">
-                    <span>🦶</span>
-                    <div class="text-white tracking-wider font-bold"> Прогулки</div>
+        <section class="hobby">
+            <div class="flex flex-col justify-center flex-wrap content-center py-28 bg-cover bg-center" style="background-image: url('https://i.gifer.com/XzZg.gif');">
+                <h2 class="mb-5 font-bold text-2xl text-center text-6xl xl:text-8xl tracking-widest uppercase text-center bright-red">Мои Хобби</h2>
+                <div class="mt-8 py-5 grid grid-cols-1 xl:grid-cols-2 justify-items-strech place-content-center gap-4 xl:gap-x-0">
+                    <div class="bg-blue-500 bg-center text-sm lg:text-xl p-12 text-center flex justify-center mx-4">
+                        <span>🤔</span>
+                        <div class="text-white tracking-wider font-bold"> Философия</div>
+                    </div>
+                    <div class="bg-red-500 bg-center text-sm lg:text-xl p-12 text-center flex justify-center mx-4">
+                        <span>💻</span>
+                        <div class="text-white tracking-wider font-bold"> Программирование</div>
+                    </div>
+                    <div class="bg-purple-500 bg-center text-sm lg:text-xl p-12 text-center flex justify-center mx-4">
+                        <span>🥼</span>
+                        <div class="text-white tracking-wider font-bold"> Психология</div>
+                    </div>
+                    <div class="bg-yellow-500 bg-center text-sm lg:text-xl p-12 text-center flex justify-center mx-4">
+                        <span>📕</span>
+                        <div class="text-white tracking-wider font-bold"> История</div>
+                    </div>
+                    <div class="bg-indigo-500 bg-center text-sm lg:text-xl p-12 text-center flex justify-center mx-4">
+                        <span>🎩</span>
+                        <div class="text-white tracking-wider font-bold"> Английский</div>
+                    </div>
+                    <div class="bg-pink-500 bg-center text-sm lg:text-xl p-12 text-center flex justify-center mx-4">
+                        <span>🦶</span>
+                        <div class="text-white tracking-wider font-bold"> Прогулки</div>
+                    </div>
                 </div>
             </div>
         </section>
+        <section class="facts my-bg">
+            <div class="flex flex-col justify-center flex-wrap content-center">
+                <h2 class="mt-5 font-bold text-2xl text-center text-6xl xl:text-8xl tracking-widest uppercase text-center bright-red">Мелочь</h2>
+            </div>
+        </section>
         <section class="contact bg-gray-300 pt-10">
-            <h2 class="mb-5 font-bold text-2xl text-center text-3xl xl:text-5xl tracking-widest uppercase text-center text-white">Контакт</h2>
+            <h2 class="mb-5 font-bold text-2xl text-center text-6xl xl:text-8xl tracking-widest uppercase text-center text-white">Контакт</h2>
             <div class="grid grid-cols-1 justify-items-center place-content-center xl:grid-cols-3 p-12">
                 <div class="col-start-1 col-span-3">
                     <form class="p-12 bg-white grid grid-cols-1 xl:grid-cols-1 justify-items-center place-content-center">
@@ -84,7 +92,6 @@
 
                 </div>
             </div>
-
         </section>
     </main>
     <footer>

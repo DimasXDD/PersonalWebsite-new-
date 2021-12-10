@@ -1,0 +1,28 @@
+.bright-red{
+    color: #f94430;
+}
+
+.dark-red{
+    color: #a33327;
+}
+
+.rus-green{
+    color: #689775;
+}
+
+.dark-brown{
+    color: #917164;
+}
+
+.bright-brown{
+    color: #ad8174;
+}
+
+.black{
+    color: #161616;
+}
+
+.my-bg{
+    background: rgb(195,237,199);
+    background: linear-gradient(88deg, rgba(195,237,199,1) 0%, rgba(165,229,195,1) 99%);
+}
