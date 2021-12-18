@@ -10,58 +10,68 @@
     <link href="css/tailwind.css" rel="stylesheet">
     <link href="css/cube.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
 </head>
 <body>
     <main class="xl:px-80">
         <section class="home">
             <div class="flex flex-col justify-center flex-wrap content-center xl:-mt-30 -mt-20 py-96 bg-cover bg-center" style="background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeIAAABoCAMAAAAaawObAAAAA1BMVEX///+nxBvIAAAASElEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODPAMQ4AAG8WSytAAAAAElFTkSuQmCC');">
                 <div class="grid grid-cols-1 place-items-center">
-                    <div class="z-40 py-5 -mb-72">
+                    <div data-inviewport="dimas-title-move" class="z-40 py-5 -mb-72">
                         <h1 class="text-6xl break-words text-center font-extrabold text-purple-900 xl:text-8xl">Дима Сиднев</h1>
                         <p class="mt-4 text-center text-center font-medium xl:text-xl text-purple-900">Ого, целый сайт про меня</p>
                     </div>
-                    <div class="cube">
-                        <div class="cube-top border-purple-800 border-5"></div>
-                        <div>
-                            <span class="border-purple-800 border-5" style="--i:0;"></span>
-                            <span class="border-purple-800 border-5" style="--i:1;"></span>
-                            <span class="border-purple-800 border-5" style="--i:2;"></span>
-                            <span class="border-purple-800 border-5" style="--i:3;"></span>
+                    <div data-inviewport="dimas-cube-scale">
+                        <div class="cube">
+                            <div class="cube-top border-purple-800 border-5"></div>
+                            <div>
+                                <span class="border-purple-800 border-5" style="--i:0;"></span>
+                                <span class="border-purple-800 border-5" style="--i:1;"></span>
+                                <span class="border-purple-800 border-5" style="--i:2;"></span>
+                                <span class="border-purple-800 border-5" style="--i:3;"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="about bg-white bg-cover pt-10 border-y-4 border-purple-800">
-            <div class="flex flex-col justify-center flex-wrap content-center">
-                <h2 class="my-5 font-bold text-2xl text-center text-6xl xl:text-8xl tracking-widest uppercase text-purple-900">Обо мне</h2>
-                <p class="p-10 my-3 font-medium xl:text-xl text-center"><span>Привет</span>, посмотрев повыше, можно понять, что меня зовут <span>Дима</span>.
+            <div class="grid grid-cols-1 xl:grid-cols-2 place-content-center place-items-center mb-6">
+                <h2 data-inviewport="dimas-fade-in-bottom" class="xl:col-span-2 my-5 font-bold text-2xl text-center text-6xl xl:text-8xl tracking-widest uppercase text-purple-900">Обо мне</h2>
+                <p data-inviewport="dimas-fade-in-bottom" class="p-10 my-3 font-medium xl:text-xl text-center xl:col-span-2"><span>Привет</span>, посмотрев повыше, можно понять, что меня зовут <span>Дима</span>.
                 Мне <span>18 лет</span>, живу в <span>Воронеже</span>, успешно являюсь <span>студентом</span>.</p>
-                <img class="my-3" src="src/proj1.jpg">
-                <p class="p-10 mt-3 font-medium xl:text-xl text-center">Я люблю множество вещей, но больше всего мне заходят <span>философия</span>, <span>программирование</span>, <span>история</span>, <span>чтение книг</span>. Согласен, этот чел пиздец зануда.</p>
-                <p class="p-10 font-medium xl:text-xl text-center">Ну и как каждому кожаному мешку с костями, мне приходиться отдыхать, как правило <span>гуляя</span>, <span>играя в компьютерные игры</span>, <span>слушая музыку</span>.</p>
-                <img class="my-3 flex-none" src="src/proj1.jpg">
-                <p class="p-10 my-3 font-medium xl:text-xl text-center">Ладно это простой сайт-визитка, хватит о себе писать, если я кажусь тебе <span>интересным человеком</span>, то мы можем пообщаться.<br></p>
+                <img data-inviewport="dimas-fade-in-bottom" class="my-3 xl:col-span-2" src="src/proj1.jpg">
+                <p data-inviewport="dimas-fade-in-bottom" class="p-10 mt-3 font-medium xl:text-xl text-center xl:col-span-2">Я люблю множество вещей, но больше всего мне заходят <span>философия</span>, <span>программирование</span>, <span>история</span>, <span>чтение книг</span>.<br>Согласен, этот чел пиздец зануда.</p>
+                <p data-inviewport="dimas-fade-in-bottom" class="p-10 font-medium xl:text-xl text-center xl:col-span-2">Ну и как каждому кожаному мешку с костями, мне приходиться отдыхать, как правило <span>гуляя</span>, <span>играя в компьютерные игры</span>, <span>слушая музыку</span>.</p>
+                <img data-inviewport="dimas-fade-in-bottom" class="my-3 xl:col-span-2" src="src/proj1.jpg">
+                <p data-inviewport="dimas-fade-in-bottom" class="p-10 my-3 font-medium xl:text-xl text-center xl:col-span-2">Ладно это простой сайт-визитка, хватит о себе писать, чутка ниже я оставлю <span>контактные данные</span>, скорее не для того, что бы мне кто-то написал, а потому что <span>без них сайт мне кажется слишком пустым</span>.</p>
             </div>
         </section>
-        <section class="contact">
-            <h2 class="my-5 font-bold text-2xl text-center text-6xl xl:text-8xl tracking-widest uppercase text-purple-900">Контакт</h2>
-            <div class="grid grid-cols-1 xl:grid-cols-1 place-content-center justify-items-center pt-10">
-                <form class="flex flex-column content-center flex-wrap items-start">
-                    <p class="font-medium xl:text-xl">Имя</p>
-                    <textarea cols="30" rows="1" placeholder="Дима, например" class="rounded-lg px-6 py-2 border-3 border-purple-900 font-medium xl:text-xl"></textarea>
-                    <p class="mt-6 font-medium xl:text-xl">Текст сообщения</p>
-                    <textarea cols="30" rows="5" placeholder="Привет Дима, ты классный!" class="rounded-lg px-6 py-2 mb-6 border-3 border-purple-900 font-medium xl:text-xl"></textarea>
-                    <button class="self-center bg-purple-900 text-white rounded-full py-2 px-4 font-medium xl:text-xl">Отправить</button>
-                </form>
+        <section class="contact grid grid-cols-1 xl:grid-cols-2 place-content-center justify-items-center place-items-center pb-18">
+            <h2 data-inviewport="dimas-fade-in-bottom" class="my-5 xl:col-span-2 font-bold text-2xl text-center text-6xl xl:text-8xl tracking-widest uppercase text-purple-900 pb-14 my-3">Контакт</h2>
+            <div class="grid grid-cols-5 place-content-center justify-items-center xl:-mt-36">
+                <ul data-inviewport="dimas-fade-in-bottom" class="flex flex-col content-center justify-center">
+                    <li class="font-medium xl:text-xl text-purple-900"><img height="30" width="30" src="src/ico/Vk.png"></li>
+                    <li class="font-medium xl:text-xl text-purple-900 my-1"><img height="30" width="30" src="src/ico/Mail.png"></li>
+                </ul>
+                <ul data-inviewport="dimas-fade-in-bottom" class="col-span-4 flex flex-col content-center justify-center">
+                    <li><a class="font-medium xl:text-xl hover:text-purple-800" href="https://vk.com/dmitry_the_great">vk.com/dmitry_the_great</a></li>
+                    <li><p class="font-medium xl:text-xl my-1">dmithry.sidnev.98@mail.ru</p></li>
+                </ul>
+            </div>
+            <div class="mt-5 xl:mt-0">
+                <div class="grid grid-cols-1 xl:grid-cols-1 place-content-center place-items-center">
+                    <form data-inviewport="dimas-fade-in" class="flex pb-20 flex-column content-center flex-wrap items-start">
+                        <p class="font-medium xl:text-xl">Имя</p>
+                        <textarea name="user_name" cols="30" rows="1" placeholder="Дима, например" class="rounded-lg px-6 py-2 border-3 border-purple-900 font-medium xl:text-xl"></textarea>
+                        <p class="mt-6 font-medium xl:text-xl">Текст сообщения</p>
+                        <textarea name="user_text" cols="30" rows="5" placeholder="Привет Дима, ты классный!" class="rounded-lg px-6 py-2 mb-6 border-3 border-purple-900 font-medium xl:text-xl"></textarea>
+                        <button type="submit" class="self-center bg-purple-900 text-white rounded-full py-2 px-4 font-medium xl:text-xl hover:bg-purple-800">Отправить</button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-        <section class="mt-5">
-            <p class="font-small xl:text-medium text-end border-t-2 border-gray-200 text-gray-400">Текст лол</p>
-        </section>
-    </footer>
-    <script src=""></script>        
+    <script src="js/intersection-observer.js"></script>        
 </body>
 </html>
