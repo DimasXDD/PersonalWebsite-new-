@@ -1,3 +1,41 @@
 span{
-    color: #4C1D95;
+    color: #004E89;
+}
+
+.dimas-text-red{
+    color: #C00021;
+}
+
+.dimas-text-blue{
+    color: #004E89;
+}
+
+.dimas-text-white{
+    color: #FFFFFF;
+}
+
+.dimas-red-border{
+    border-width: 5px;
+    border-color: #004E89;
+}
+
+.dimas-red-border-sm{
+    border-width: 3px;
+    border-color: #004E89;
+}
+
+.dimas-bg-blue{
+    background: #004E89;
+}
+
+.dimas-bg-blue:hover{
+    background: #407BA7;
+}
+
+.dimas-a-tag{
+    color: inherit;
+}
+
+.dimas-a-tag:hover{
+    color: #004E89;
 }

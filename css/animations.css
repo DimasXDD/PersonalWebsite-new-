@@ -8,17 +8,6 @@
   transform: scale(1);
 }
 
-[data-inviewport="dimas-title-move"]{
-  transition: 3s;
-  transform: scale(0);
-}
-[data-inviewport="dimas-title-move"].is-inViewport{
-  transform: scale(1);
-}
-[data-inviewport="dimas-title-move"]:hover{
-  margin-left: -500%;
-}
-
 [data-inviewport="dimas-slide-left"]{
   transition: 3s;
   opacity: 0%;
