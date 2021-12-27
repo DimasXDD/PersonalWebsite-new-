@@ -21,4 +21,9 @@
 	$mail->isHTML(true);
 	$mail->Body = "<h1>$name</h1></br><p>$text</p>";
 	$mail->addAddress('dmithry.sidnev.98@mail.ru');
+	if ( $mail->send() ) {
+		echo "Я пока не сделал страницу со словом спасибо, так что довольствуемся этим текстом, спасибо за сообщение кстати";
+	}else{
+		echo "Ошибка: "{$mail->ErrorInfo};
+	}
 	$mail->smtpClose();
