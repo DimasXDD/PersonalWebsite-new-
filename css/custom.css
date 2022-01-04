@@ -2,6 +2,36 @@ span{
     color: #004E89;
 }
 
+.dimas-textarea{
+    min-width: 80%;
+    min-height: 95%;
+}
+
+.dropdown{
+    position: relative;
+    float: right;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    white-space: nowrap;
+    right: 0px;
+}
+
+.dropdown-content a{
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dimas-dropdown-btn{
+    margin: 1px;    
+}
+
 .dimas-text-red{
     color: #C00021;
 }
@@ -12,6 +42,15 @@ span{
 
 .dimas-text-white{
     color: #FFFFFF;
+}
+
+.dimas-bar-padding{
+    padding: 20px;
+}
+
+.dimas-blue-border-sm{
+    border-width: 3px;
+    border-color: #004E89;
 }
 
 .dimas-red-border{
