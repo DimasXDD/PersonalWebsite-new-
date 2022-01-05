@@ -7,29 +7,12 @@ span{
     min-height: 95%;
 }
 
-.dropdown{
-    position: relative;
-    float: right;
-    display: inline-block;
-}
-
-.dropdown-content{
+.dimas-dropdownOff{
     display: none;
-    position: absolute;
-    white-space: nowrap;
-    right: 0px;
 }
 
-.dropdown-content a{
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-.dropdown:hover .dropdown-content {display: block;}
-
-
-.dimas-dropdown-btn{
-    margin: 1px;    
+.dimas-dropdownOn{
+    display: inline-block;
 }
 
 .dimas-text-red{

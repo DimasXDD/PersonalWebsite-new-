@@ -17,11 +17,11 @@
         <ul class="flex flex-row-reverse justify-between content-center mx-2">
             <li class="mt-4 mr-4">
                 <div data-inviewport="dimas-fade-in" class="dropdown">
-                    <button class="dimas-bg-blue p-2"><i class="fas text-white fa-bars"></i></button>
-                    <div class="dropdown-content">
-                        <a href="index.html" class="text-black">Обо мне</a>
-                        <a href="referencesGen.html" class="text-black">Генератор источников</a>
-                    </div>
+                    <button onclick="dropdownOn()" id="NavDropdown" class="dimas-bg-blue p-2"><i class="fas text-white fa-bars"></i></button>
+                    <ul class="dropdown">
+                        <li id="aboutMeDropdown" class="dimas-dropdownOff"><a href="index.html" class="text-black">Обо мне</a></li><br>
+                        <li id="refGenDropdown" class="dimas-dropdownOff"><a href="referencesGen.html" class="text-black">Генератор источников</a></li>
+                    </ul>
                 </div>
             </li>
         </ul>
@@ -34,12 +34,13 @@
             3. используешь не существующий источник в своих корыстных целях.<br>
             4. счастье.<br>
             5. я жестоко зарезал 13 подростков кухонным ножом в подвале в 2001 году.</p>
-        <textarea id="textAreaRef" data-inviewport="dimas-fade-in" placeholder="Тут будет сгенерирован источник" class="dimas-textarea mt-12 justify-self-center rounded-lg px-6 py-2 mb-4 dimas-red-border-sm font-medium xl:text-xl"></textarea>
+        <textarea id="textAreaRef" data-inviewport="dimas-fade-in" rows="5" placeholder="Тут будет сгенерирован источник" class="dimas-textarea mt-12 justify-self-center rounded-lg px-6 py-2 mb-4 dimas-red-border-sm font-medium xl:text-xl"></textarea>
         <div class="flex flex-row gap-8 mt-8">
             <button id="submit" onclick="randGen()" data-inviewport="dimas-fade-in" class="mt-5 justify-self-center self-center dimas-bg-blue text-white rounded-full py-2 px-4 font-medium xl:text-xl">Сгенерировать</button>
         </div>
     </main>
     <script src="js/intersection-observer.js"></script>
     <script src="js/referenceGen.js"></script>
+    <script src="js/lilCustom.js"></script>
 </body>
 </html>
