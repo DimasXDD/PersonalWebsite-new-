@@ -9,15 +9,15 @@
     <link href="css/tailwind.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/animations.css" rel="stylesheet">
-    <link href="src/DW.png" rel="icon">
+    <link href="src/terrorize.jpg" rel="icon">
     <script src="src/font-awesome-all-min.js"></script>
 </head>
 <body>
     <header>
         <ul class="flex flex-row-reverse justify-between content-center mx-2">
-            <li class="mt-4 mr-4">
+            <li class="mt-4 mr-4 -mb-32">
                 <div data-inviewport="dimas-fade-in" class="dropdown">
-                    <button onclick="dropdownOn()" id="NavDropdown" class="dimas-bg-blue p-2"><i class="fas text-white fa-bars"></i></button>
+                    <button onclick="dropdownOn()" id="NavDropdown" class="dimas-bg-blue p-2 dimas-dropdown-btn"><i class="fas text-white fa-bars"></i></button>
                     <ul class="dropdown">
                         <li id="aboutMeDropdown" class="dimas-dropdownOff"><a href="index.html" class="text-black">Обо мне</a></li><br>
                         <li id="refGenDropdown" class="dimas-dropdownOff"><a href="referencesGen.html" class="text-black">Генератор источников</a></li><br>
@@ -28,14 +28,15 @@
         </ul>
     </header>
     <main class="grid grid-cols-1 xl:px-80 py-40 justify-center place-items-center">
-        <h2 data-inviewport="dimas-fade-in" class="my-12 font-bold text-2xl text-center text-4xl xl:text-6xl tracking-widest uppercase dimas-text-red">Генератор ПрИкОлОв</h2>
-        <p data-inviewport="dimas-fade-in" class="my-8 px-10 justify-self-center font-medium xl:text-xl text-justify">Тыкаешь кнопку "сгенерировать" и мой прекрасный скрипт делает ржомбу, клас?</p>
-        <div class="bg-black p-6 xl:p-16 grid place-items-center justify-items-center mx-4 my-3">
-            <img id="MemeImg" class="border-4 border-solid dimas-memGen-img" src="src/memGenRandomImgs/stock.jpg"  height="500" width="500">
+        <h2 data-inviewport="dimas-fade-in-bottom" class="my-12 font-bold text-2xl text-center text-4xl xl:text-6xl tracking-widest uppercase dimas-text-red">Генератор ПрИкОлОв</h2>
+        <p data-inviewport="dimas-fade-in-bottom" class="my-8 px-10 justify-self-center font-medium xl:text-xl text-center">А сейчас будет то, за чем будущее юмора нахуй! Рандомный юмор!<br>Ебаш по картинке в демотиваторе и умирай от ржаки или кринжа.</p>
+        <div data-inviewport="dimas-fade-in" class="bg-black p-6 xl:p-12 grid place-items-center justify-items-center mx-4 my-8">
+            <div class="dimas-memGen-img-container">
+                <img onclick="memGen()" id="MemeImg" class="border-4 border-solid dimas-memGen-img" src="src/memGenRandomImgs/stock.jpg"  height="500" width="500">
+            </div>
             <h3 id="upperText" class="text-white text-center text-4xl xl:text-6xl mt-4">Верхний текст</h3>
             <p id="bottomText" class="text-white text-center font-medium xl:text-xl">Нижний текст</p>
         </div>
-        <button onclick="memGen()" data-inviewport="dimas-fade-in" class="mt-5 justify-self-center self-center dimas-bg-blue text-white rounded-full py-2 px-4 font-medium xl:text-xl">Сгенерировать</button>
     </main>
     <script src="js/intersection-observer.js"></script>
     <script src="js/lilCustom.js"></script>

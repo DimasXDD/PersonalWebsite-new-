@@ -3,10 +3,9 @@ span{
 }
 
 .dimas-memGen-img{
-    min-height: 18.75rem;
-    min-width: 18.75rem;
-    max-height: 18.75rem;
-    max-width: 18.75rem;
+    max-width: 18rem;
+    max-height: 18rem;
+    cursor:grab;   
 }
 
 .dimas-textarea{
