@@ -13,14 +13,6 @@ span{
     min-height: 95%;
 }
 
-.dimas-dropdownOff{
-    display: none;
-}
-
-.dimas-dropdownOn{
-    display: inline-block;
-}
-
 .dimas-text-red{
     color: #C00021;
 }
@@ -72,4 +64,8 @@ span{
 
 .dimas-a-tag:hover{
     color: #004E89;
+}
+
+.dimas-media-img{
+    page-break-after: avoid;
 }

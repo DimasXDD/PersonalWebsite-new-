@@ -14,20 +14,6 @@
     <script src="src/font-awesome-all-min.js"></script>
 </head>
 <body>
-    <header>
-        <ul class="flex flex-row-reverse justify-between content-center mx-2">
-            <li class="mt-4 mr-4 -mb-32">
-                <div data-inviewport="dimas-fade-in" class="dropdown">
-                    <button onclick="dropdownOn()" id="NavDropdown" class="dimas-bg-blue p-2"><i class="fas text-white fa-bars"></i></button>
-                    <ul class="dropdown">
-                        <li id="aboutMeDropdown" class="dimas-dropdownOff"><a href="index.html" class="text-black">Обо мне</a></li><br>
-                        <li id="refGenDropdown" class="dimas-dropdownOff"><a href="referencesGen.html" class="text-black">Генератор источников</a></li><br>
-                        <li id="memGenDropdown" class="dimas-dropdownOff"><a href="memeGen.html" class="text-black">МемГен</a></li>
-                    </ul>
-                </div>
-            </li>
-        </ul>
-    </header>
     <main class="xl:px-80">
         <section class="home">
             <div class="flex flex-col justify-center flex-wrap content-center xl:-mt-30 -mt-20 py-96 bg-cover bg-center">
@@ -67,14 +53,16 @@
         </section>
         <section class="contact grid grid-cols-1 xl:grid-cols-2 place-content-center justify-items-center place-items-center pb-18">
             <h2 data-inviewport="dimas-squish" class="my-5 xl:col-span-2 font-bold text-2xl text-center text-6xl xl:text-8xl tracking-widest uppercase dimas-text-red pb-14 my-3">Контакт</h2>
-            <div class="grid grid-cols-5 place-content-center justify-items-center xl:-mt-36">
+            <div class="grid col-span-5 place-content-center justify-items-center xl:-mt-36">
                 <ul data-inviewport="dimas-fade-in-bottom" class="flex flex-col content-center justify-center">
-                    <li class="font-medium xl:text-xl dimas-text-blue"><img height="30" width="30" src="src/ico/Mail.png"></li>
-                    <li class="font-medium xl:text-xl dimas-text-blue my-1"><img height="30" width="30" src="src/ico/Vk.png"></li>
+                    <li class="font-medium xl:text-xl dimas-text-blue"><img class="dimas-media-img" height="30" width="30" src="src/ico/Mail.png"></li>
+                    <li class="font-medium xl:text-xl dimas-text-blue my-1"><img class="dimas-media-img" height="30" width="30" src="src/ico/Vk.png"></li>
+                    <li class="font-medium xl:text-xl dimas-text-blue"><img class="dimas-media-img" height="30" width="30" src="src/ico/GitHub.png"></li>
                 </ul>
                 <ul data-inviewport="dimas-fade-in-bottom" class="col-span-4 flex flex-col content-center justify-center">
                     <li><p class="font-medium xl:text-xl">dmithry.sidnev.98@mail.ru</p></li>
-                    <li><a class="font-medium xl:text-xl my-1 dimas-a-tag" href="https://vk.com/dmitry_the_great">vk.com/dmitry_the_great</a></li>
+                    <li><a class="font-medium xl:text-xl dimas-a-tag my-4" href="https://vk.com/dmitry_the_great">dmitry_the_great</a></li>
+                    <li><a class="font-medium xl:text-xl dimas-a-tag" href="https://github.com/DimasXDD">DimasXDD</a></li>
                 </ul>
             </div>
             <div class="mt-5 xl:mt-0">
