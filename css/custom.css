@@ -2,6 +2,25 @@ span{
     color: #004E89;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.dimas-scrollProgressBar-container{
+    width: 100%;
+    height: 0.3rem;
+    background-color: #808080;
+}
+
+.dimas-progressBar{
+    background-color: #C00021;
+    width: 0%;
+    height: 0.3rem;
+}
+
 .dimas-memGen-img{
     max-width: 18rem;
     max-height: 18rem;
@@ -72,4 +91,8 @@ span{
 
 .dimas-media-img{
     page-break-after: avoid;
+}
+
+.dimas-main-vh{
+    height: 100vh;
 }

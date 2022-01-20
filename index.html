@@ -14,13 +14,19 @@
     <script src="src/font-awesome-all-min.js"></script>
 </head>
 <body>
-    <main class="xl:px-80">
+    <!--пометка себе чё сделать надо: 1)исправь отображение текста на ноутбуке 2)начни учить wordpress и делать блог-->
+    <header class="">
+        <div class="dimas-scrollProgressBar-container">
+            <div id="progressbar" class="dimas-progressBar"></div>
+        </div>
+    </header>
+    <main class="dimas-main-vh">
         <section class="home">
-            <div class="flex flex-col justify-center flex-wrap content-center xl:-mt-30 -mt-20 py-96 bg-cover bg-center">
+            <div class="flex flex-col justify-center flex-wrap content-center 2xl:-mt-30 lg:-mt-24 -mt-20 py-96 bg-cover bg-center">
                 <div class="grid grid-cols-1 place-items-center">
                     <div data-inviewport="dimas-cube-scale" class="z-40 py-5 -mb-72">
-                        <h1 class="text-6xl break-words text-center font-extrabold dimas-text-red xl:text-8xl">Дима Сиднев</h1>
-                        <p class="mt-4 text-center text-center font-medium xl:text-xl dimas-text-red">Ого, целый сайт про меня</p>
+                        <h1 class="text-6xl lg:text-7xl break-words text-center font-extrabold dimas-text-red 2xl:text-8xl">Дима Сиднев</h1>
+                        <p class="mt-4 text-center text-center font-medium text-base lg:text-lg 2xl:text-xl dimas-text-red">Ого, целый сайт про меня</p>
                     </div>
                     <div data-inviewport="dimas-cube-scale">
                         <div class="cube">
@@ -37,41 +43,42 @@
             </div>
         </section>
         <section class="about bg-white bg-cover pt-10">
-            <div class="grid grid-cols-1 xl:grid-cols-2 place-content-center place-items-center mb-6">
-                <h2 data-inviewport="dimas-spin" class="xl:col-span-2 my-5 font-bold text-2xl text-center text-6xl xl:text-8xl tracking-widest uppercase dimas-text-red">Эбаут Ми</h2>
-                <img data-inviewport="dimas-slide-left" height="400" width="500" class="my-3 xl:col-span-2 dimas-img-border" src="src/ich_eins.png">
-                <p data-inviewport="dimas-fade-in-bottom" class="p-10 xl:px-60 my-3 font-medium xl:text-xl text-justify xl:col-span-2">Я 18 летний студент, который пока что толком ничего серьёзного не добился, так что, походу мне особо нечего писать в первом абзаце. Дальше я чутка расскажу о себе, а-ля, <i>микро автобиография</i>.</p>
-                <p data-inviewport="dimas-fade-in-bottom" class="p-10 xl:px-60 my-3 font-medium xl:text-xl text-justify xl:col-span-2">Родился я Воронеже, тут же и живу, да и не выхожу от сюда. Если ты местный, то после слова <i>машмет</i> твоё лицо должно наполниться страхом, унынием, отчаянием (если ты живёшь здесь). Так к чему это я про машмет, а, я сам отсюда!</p>
-                <p data-inviewport="dimas-fade-in-bottom" class="p-10 xl:px-60 my-3 font-medium xl:text-xl text-justify xl:col-span-2">Учился в 97 школе, в принципе, ничего особенного. Но школа для меня это тёмный век, я тогда был ебланом и только в компьютерные игры играл, мало общался, никак не пытался сделать себя лучше. Ещё я ещё 120 кг весил и боялся женщин.</p>
-                <p data-inviewport="dimas-fade-in-bottom" class="p-10 xl:px-60 my-3 font-medium xl:text-xl text-justify xl:col-span-2">После сдачи ОГЭ я решил не идти в 11 класс, так как понял что хотелось бы начать всё с чистого листа. Так я и оказался там, где я и сейчас, в техникуме. Первый год бытия студента стал поворотным, ввиду того, что окружение поменялось, захотел измениться и я! Сначала я смотрел видео по пересказу книг, чутка позже начал их активно читать, до сих пор не останавливаюсь.</p>
-                <p data-inviewport="dimas-fade-in-bottom" class="p-10 xl:px-60 my-3 font-medium xl:text-xl text-justify xl:col-span-2">На втором курсе до меня дошло, что мозги качать это круто, но быть жировиком так себе. Мне повезло, ведь тогда активно карантинили осенью и у меня была туева хуча свободного времени. Ни с того ни с сего мне понравилось.... ходить? Да, на своих двоих, на дальние дистанции. И так я отходил довольно большую часть своего жира (у меня даже мазоли на ногах не успевали заживать).</p>
+            <div class="grid lg:px-80 grid-cols-1 place-content-center place-items-center mb-6">
+                <h2 data-inviewport="dimas-spin" class="2xl:col-span-2 my-5 font-bold text-2xl text-center text-6xl lg:text-7xl 2xl:text-8xl tracking-widest uppercase dimas-text-red">Эбаут Ми</h2>
+                <img data-inviewport="dimas-slide-left" height="400" width="500" class="my-3 2xl:col-span-2 dimas-img-border" src="src/ich_eins.png">
+                <p data-inviewport="dimas-fade-in-bottom" class="p-10 2xl:px-60 my-3 font-medium lg:text-lg 2xl:text-xl text-justify 2xl:col-span-2">Я 18 летний студент, который пока что толком ничего серьёзного не добился, так что, походу мне особо нечего писать в первом абзаце. Дальше я чутка расскажу о себе, а-ля, <i>микро автобиография</i>.</p>
+                <p data-inviewport="dimas-fade-in-bottom" class="p-10 2xl:px-60 my-3 font-medium lg:text-lg 2xl:text-xl text-justify 2xl:col-span-2">Родился я Воронеже, тут же и живу, да и не выхожу от сюда. Если ты местный, то после слова <i>машмет</i> твоё лицо должно наполниться страхом, унынием, отчаянием (если ты живёшь здесь). Так к чему это я про машмет, а, я сам отсюда!</p>
+                <p data-inviewport="dimas-fade-in-bottom" class="p-10 2xl:px-60 my-3 font-medium lg:text-lg 2xl:text-xl text-justify 2xl:col-span-2">Учился в 97 школе, в принципе, ничего особенного. Но школа для меня это тёмный век, я тогда был ебланом и только в компьютерные игры играл, мало общался, никак не пытался сделать себя лучше. Ещё я ещё 120 кг весил и боялся женщин.</p>
+                <p data-inviewport="dimas-fade-in-bottom" class="p-10 2xl:px-60 my-3 font-medium lg:text-lg 2xl:text-xl text-justify 2xl:col-span-2">После сдачи ОГЭ я решил не идти в 11 класс, так как понял что хотелось бы начать всё с чистого листа. Так я и оказался там, где я и сейчас, в техникуме. Первый год бытия студента стал поворотным, ввиду того, что окружение поменялось, захотел измениться и я! Сначала я смотрел видео по пересказу книг, чутка позже начал их активно читать, до сих пор не останавливаюсь.</p>
+                <p data-inviewport="dimas-fade-in-bottom" class="p-10 2xl:px-60 my-3 font-medium lg:text-lg 2xl:text-xl text-justify 2xl:col-span-2">На втором курсе до меня дошло, что мозги качать это круто, но быть жировиком так себе. Мне повезло, ведь тогда активно карантинили осенью и у меня была туева хуча свободного времени. Ни с того ни с сего мне понравилось.... ходить? Да, на своих двоих, на дальние дистанции. И так я отходил довольно большую часть своего жира (у меня даже мазоли на ногах не успевали заживать).</p>
                 <img data-inviewport="dimas-slide-left" height="300" width="300" class="my-3 xl:col-span-2 dimas-img-border" src="src/ich_zwei.png">
-                <p data-inviewport="dimas-fade-in-bottom" class="p-10 xl:px-60 my-3 font-medium xl:text-xl text-justify xl:col-span-2">А на третем годе обучения (пока говорю за первую половину, вторую ещё предстоит прожить), я увяз в программировании, делая себе сайты (эй, нет, я не самовлюблённый!) и капаясь в целом в веб разработке.</p>
-                <p data-inviewport="dimas-fade-in-bottom" class="p-10 xl:px-60 my-3 font-medium xl:text-xl text-justify xl:col-span-2">В будущем планирую с юриста повернуть на программиста (после армии), сделать из этого сайта-визитки полноценный блог (надеюсь успею до), накачаться, побриться налысо (ЭТОТ ПУНКТ ОБЯЗАТЕЛЕН), написать книгу. Было бы ещё круто попутно стать пиратом, ну или феей.</p>
-                <p data-inviewport="dimas-fade-in-bottom" class="p-10 xl:px-60 my-3 font-medium xl:text-xl text-justify xl:col-span-2">Ух, ну и человек! Ладно, я и так тут палку драмы перегнул, хватит, а то ещё не дай бог кому-то понравлюсь. А если так и получилось (понравился всмысле), то внизу всегда есть контактные данные и прекрасная форма.</p>
+                <p data-inviewport="dimas-fade-in-bottom" class="p-10 2xl:px-60 my-3 font-medium lg:text-lg 2xl:text-xl text-justify 2xl:col-span-2">А на третем годе обучения (пока говорю за первую половину, вторую ещё предстоит прожить), я увяз в программировании, делая себе сайты (эй, нет, я не самовлюблённый!) и капаясь в целом в веб разработке.</p>
+                <p data-inviewport="dimas-fade-in-bottom" class="p-10 2xl:px-60 my-3 font-medium lg:text-lg 2xl:text-xl text-justify 2xl:col-span-2">В будущем планирую с юриста повернуть на программиста (после армии), сделать из этого сайта-визитки полноценный блог (надеюсь успею до), накачаться, побриться налысо (ЭТОТ ПУНКТ ОБЯЗАТЕЛЕН), написать книгу. Было бы ещё круто попутно стать пиратом, ну или феей.</p>
+                <p data-inviewport="dimas-fade-in-bottom" class="p-10 2xl:px-60 my-3 font-medium lg:text-lg 2xl:text-xl text-justify 2xl:col-span-2">Ух, ну и человек! Ладно, я и так тут палку драмы перегнул, хватит, а то ещё не дай бог кому-то понравлюсь. А если так и получилось (понравился всмысле), то внизу всегда есть контактные данные и прекрасная форма.</p>
             </div>
         </section>
-        <section class="contact grid grid-cols-1 xl:grid-cols-2 place-content-center justify-items-center place-items-center pb-18">
-            <h2 data-inviewport="dimas-squish" class="my-5 xl:col-span-2 font-bold text-2xl text-center text-6xl xl:text-8xl tracking-widest uppercase dimas-text-red pb-14 my-3">Медиа</h2>
-            <ul data-inviewport="dimas-fade-in-bottom" class="flex flex-col content-center justify-center xl:-mt-40">
-                <li class="font-medium xl:text-xl"><i class="fas fa-envelope dimas-text-blue fa-lg"></i><a class="font-medium xl:text-xl dimas-a-tag-nohover mx-2">dmithry.sidnev.98@mail.ru</a></li>
-                <li class="font-medium xl:text-xl my-1"><i class="fab fa-vk dimas-text-blue fa-lg"></i><a class="font-medium xl:text-xl dimas-a-tag my-4 mx-2" href="https://vk.com/dmitry_the_great">dmitry_the_great</a></li>
-                <li class="font-medium xl:text-xl"><i class="fab fa-github dimas-text-blue fa-lg"></i><a class="font-medium xl:text-xl dimas-a-tag mx-2" href="https://github.com/DimasXDD">DimasXDD</a></li>
+        <section class="contact grid grid-cols-1 2xl:grid-cols-2 place-content-center justify-items-center place-items-center pb-18 lg:px-80">
+            <h2 data-inviewport="dimas-squish" class="my-5 2xl:col-span-2 font-bold text-2xl text-center text-6xl lg:text-7xl 2xl:text-8xl tracking-widest uppercase dimas-text-red pb-14 my-3">Медиа</h2>
+            <ul data-inviewport="dimas-fade-in-bottom" class="flex flex-col content-center justify-center 2xl:-mt-40">
+                <li class="font-medium lg:text-lg 2xl:text-xl"><i class="fas fa-envelope dimas-text-blue fa-lg"></i><a class="font-medium lg:text-lg 2xl:text-xl dimas-a-tag-nohover mx-2">dmithry.sidnev.98@mail.ru</a></li>
+                <li class="font-medium lg:text-lg 2xl:text-xl my-1"><i class="fab fa-vk dimas-text-blue fa-lg"></i><a class="font-medium lg:text-lg 2xl:text-xl dimas-a-tag my-4 mx-2" href="https://vk.com/dmitry_the_great">dmitry_the_great</a></li>
+                <li class="font-medium lg:text-lg 2xl:text-xl"><i class="fab fa-github dimas-text-blue fa-lg"></i><a class="font-medium lg:text-lg 2xl:text-xl dimas-a-tag mx-2" href="https://github.com/DimasXDD">DimasXDD</a></li>
             </ul>
-            <div class="mt-5 xl:mt-0">
-                <div class="grid grid-cols-1 xl:grid-cols-1 place-content-center place-items-center">
+            <div class="mt-5 2xl:mt-0">
+                <div class="grid grid-cols-1 place-content-center place-items-center">
                     <form data-inviewport="dimas-fade-in" action="mail.php" method="POST" class="flex pb-20 flex-column content-center flex-wrap items-start">
-                        <p class="font-medium xl:text-xl">Имя</p>
-                        <textarea name="user_name" cols="30" rows="1" placeholder="Дима, например" class="rounded-lg px-6 py-2 dimas-red-border-sm font-medium xl:text-xl"></textarea>
-                        <p class="mt-6 font-medium xl:text-xl">Текст сообщения</p>
-                        <textarea name="user_text" cols="30" rows="5" placeholder="Дима, ты классный!" class="rounded-lg px-6 py-2 mb-6 dimas-red-border-sm font-medium xl:text-xl"></textarea>
-                        <button type="submit" class="self-center dimas-bg-blue text-white rounded-full py-2 px-4 font-medium xl:text-xl">Отправить</button>
+                        <p class="font-medium lg:text-lg 2xl:text-xl">Имя</p>
+                        <textarea name="user_name" cols="30" rows="1" placeholder="Дима, например" class="rounded-lg px-6 py-2 dimas-red-border-sm font-medium lg:text-lg 2xl:text-xl"></textarea>
+                        <p class="mt-6 font-medium lg:text-lg 2xl:text-xl">Текст сообщения</p>
+                        <textarea name="user_text" cols="30" rows="5" placeholder="Дима, ты классный!" class="rounded-lg px-6 py-2 mb-6 dimas-red-border-sm font-medium lg:text-lg 2xl:text-xl"></textarea>
+                        <button type="submit" class="self-center dimas-bg-blue text-white rounded-full py-2 px-4 font-medium lg:text-lg 2xl:text-xl">Отправить</button>
                     </form>
                 </div>
             </div>
         </section>
     </main>
     <script src="js/intersection-observer.js"></script>
-    <script src="js/lilCustom.js"></script>        
+    <script src="js/lilCustom.js"></script>
+    <script src="js/scrollProgressBar.js"></script>        
 </body>
 </html>
